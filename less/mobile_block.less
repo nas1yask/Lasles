@@ -1,0 +1,58 @@
+.mobile_block{
+    width: 82%;
+    background: pink;
+    position: absolute;
+    left: -84%;
+    z-index: 999999;
+    background: #ffffffec;
+    box-shadow: 2px 2px 5px rgba(189,189,189,1);
+    border-radius: 25px;
+    padding-bottom: 50px;
+    transition: 0.5s;
+    opacity: 0;
+    header{
+        width: 100%;
+        border-bottom: 3px solid rgba(216, 216, 216, 0.979);
+        padding: 15px 20px;
+        .flex_between;
+        i{
+            color: rgba(181, 181, 181, 0.979);
+            font-size: 25px;
+        }
+        a{
+            img{
+                width: 150px;
+            }
+        }
+    }
+    menu{
+        text-align: center;
+        margin-bottom: 45px;
+        li{
+            margin: 30px 0;
+            a{
+                color: @mainColor2;
+                transition: 0.3s;               
+                border-bottom: 2px solid #00000000;
+                font-size: 20px;
+                font-weight: 500;
+            }
+        }
+    }
+    div{
+        text-align: center;
+        a{
+            padding: 6px 17px;
+            border-radius: 20px;
+            border: 2px solid #00000000;
+            transition: 0.3s;
+            color: @mainColor2;
+            color: @mainColor1;
+            border: 2px solid @mainColor1;
+            font-size: 22px;
+            &:nth-child(1){
+                margin-right: 15px;
+            }
+        }
+    }
+}   

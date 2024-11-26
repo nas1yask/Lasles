@@ -1,0 +1,60 @@
+.subscribe{
+    width: 100%;
+    padding-top: 20px;
+    transform: translateY(20px);
+    .container{
+        width: 1146px;
+        border-radius: 20px;
+        box-shadow: 12px 18px 54px 0px rgba(0, 0, 0, 0.11);
+        background: #fff;
+        margin: 0 auto;
+        .flex_between;
+        padding: 42px 40px;
+        div{
+            h2{
+                color: @mainColor2;
+                font-size: 25px;
+                font-weight: 600;
+                line-height: 30px;
+                margin-bottom: 17px;
+            }
+            p{
+                .txt;
+            }
+        }
+        button{
+            .btn;
+            font-size: 18px;
+            font-weight: 600;
+            padding: 15px 45px;
+        }
+    }
+}
+
+
+@media (max-width: 1170px){
+    .subscribe{
+        .container{
+            width: 95%;
+        }
+    }
+}
+
+@media (max-width: 700px){
+    .subscribe{
+        transform: translateY(0px);
+        padding-bottom: 40px;
+        .container{
+            width: 90%;
+            flex-direction: column;
+            text-align: center;
+            padding: 32px 15px;
+            div{
+                margin-bottom: 30px;
+                h2{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
